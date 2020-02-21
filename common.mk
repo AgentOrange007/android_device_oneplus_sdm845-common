@@ -85,8 +85,8 @@ PRODUCT_PACKAGES_DEBUG += \
     bootctl
 
 # Camera
-PRODUCT_PACKAGES += \
-    Snap
+#PRODUCT_PACKAGES += \
+#    Snap
 
 # Common init scripts
 PRODUCT_PACKAGES += \
@@ -147,8 +147,8 @@ PRODUCT_PACKAGES += \
     power.qcom:64
 
 # Remove unwanted packages
-PRODUCT_PACKAGES += \
-    RemovePackages
+#PRODUCT_PACKAGES += \
+#    RemovePackages
 
 # Telephony
 PRODUCT_PACKAGES += \
