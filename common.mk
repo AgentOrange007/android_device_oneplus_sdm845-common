@@ -146,7 +146,7 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     power.qcom:64
 
-## Remove unwanted packages
+# Remove unwanted packages
 #PRODUCT_PACKAGES += \
 #    RemovePackages
 
