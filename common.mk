@@ -84,10 +84,6 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES_DEBUG += \
     bootctl
 
-# Camera
-PRODUCT_PACKAGES += \
-    Snap
-
 # Common init scripts
 PRODUCT_PACKAGES += \
     init.qcom.rc \
@@ -146,6 +142,7 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     power.qcom:64
 
+<<<<<<< HEAD
 # Remove unwanted packages
 PRODUCT_PACKAGES += \
     RemovePackages
@@ -154,6 +151,8 @@ PRODUCT_PACKAGES += \
 PRODUCT_SOONG_NAMESPACES += \
     $(LOCAL_PATH)
 
+=======
+>>>>>>> 56ebf1b5823379b1af21905235a3dec2b015d232
 # Telephony
 PRODUCT_PACKAGES += \
     ims-ext-common \
